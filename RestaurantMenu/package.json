@@ -1,0 +1,22 @@
+{
+  "name": "RestaurantMenu-workspace",
+  "version": "0.0.2",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "client",
+      "server",
+      "config"
+    ],
+    "nohoist": [
+      "**/react-native",
+      "**/react-native/**",
+      "**/react-native-*",
+      "**/nars-client"
+    ]
+  },
+  "scripts": {
+    "android": "yarn workspace client android",
+    "ios": "yarn workspace client ios"
+  }
+}
