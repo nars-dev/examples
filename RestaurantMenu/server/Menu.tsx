@@ -110,8 +110,6 @@ export function Menu(props: { onMenuItemSelected: OnPress }) {
   const [posts] = React.useState(mockData);
   return (
     <FlatList
-      style={{ backgroundColor: "white" }}
-      onEndReachedThreshold={0.3}
       data={posts}
       keyExtractor={item => item.item.title}
       renderItem={renderItem(props.onMenuItemSelected)}
