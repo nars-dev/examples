@@ -10,7 +10,7 @@
     "RestaurantMenu-config": "*",
     "express": "^4.17.1",
     "nars": "1.0.0-alpha.10",
-    "ws": "^7.1.2"
+    "ws": "^7.4.6"
   },
   "devDependencies": {
     "@types/express": "^4.17.2",
