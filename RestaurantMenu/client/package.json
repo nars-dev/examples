@@ -14,7 +14,7 @@
     "react-native": "0.61.5",
     "nars-client": "1.0.0-alpha.7",
     "RestaurantMenu-config": "*",
-    "react-native-reanimated": "1.7.0"
+    "react-native-reanimated": "2.10.0"
   },
   "devDependencies": {
     "@babel/core": "^7.6.2",
